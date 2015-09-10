@@ -22,7 +22,7 @@
         </config-file>
         
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-          <activity android:name="com.geteventro.app.MainApplication" />
+          
           <service android:name="com.parse.PushService" />
           <receiver android:name="com.parse.ParseBroadcastReceiver">
             <intent-filter>
@@ -41,6 +41,7 @@
         </config-file>
         
         <config-file target="AndroidManifest.xml" parent="/manifest">
+          <application android:name="org.apache.cordova.core.MainApplication" />
           <uses-permission android:name="android.permission.INTERNET" />
           <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
           <uses-permission android:name="android.permission.WAKE_LOCK" />

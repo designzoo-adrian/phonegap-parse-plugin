@@ -9,5 +9,4 @@ public class MainApplication extends Application {
         super.onCreate();
         ParsePlugin.initializeParseWithApplication(this);
     }
-
 }
