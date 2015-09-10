@@ -1,5 +1,6 @@
 package org.apache.cordova.core;
 
+import android.app.Application;
 import org.apache.cordova.core.ParsePlugin;
 
 public class MainApplication extends Application {
