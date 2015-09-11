@@ -41,7 +41,6 @@
         </config-file>
         
         <config-file target="AndroidManifest.xml" parent="/manifest">
-          <application android:name="org.apache.cordova.core.MainApplication" />
           <uses-permission android:name="android.permission.INTERNET" />
           <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
           <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -56,7 +55,7 @@
         <source-file src="src/android/parse/bolts-android-1.2.1.jar" target-dir="libs" framework="true" />
         <source-file src="src/android/parse/Parse-1.9.0.jar" target-dir="libs" framework="true" />
         <source-file src="src/android/ParsePlugin.java" target-dir="src/org/apache/cordova/core" />
-        <source-file src="src/android/MainApplication.java" target-dir="src/org/apache/cordova/core" />
+        <source-file src="src/android/MainApplication.java" target-dir="src/com/geteventro/app" />
 
         <source-file src="src/android/parseplugin.xml" target-dir="res/values" />
         <config-file target="res/values/parseplugin.xml" parent="/*">
